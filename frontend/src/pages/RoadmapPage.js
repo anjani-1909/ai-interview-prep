@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { roadmapAPI } from '../utils/api';
 import { useAuth } from '../context/AuthContext';
 import toast from 'react-hot-toast';
-import { MdCheckCircle, MdLock, MdSchedule, MdOpenInNew, MdUpdate } from 'react-icons/md';
+import { MdCheckCircle, MdSchedule, MdOpenInNew, MdUpdate } from 'react-icons/md';
 
 const RoadmapPage = () => {
   const { user, updateUser } = useAuth();

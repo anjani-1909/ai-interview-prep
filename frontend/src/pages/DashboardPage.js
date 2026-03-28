@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { dashboardAPI } from '../utils/api';
 import { useAuth } from '../context/AuthContext';
-import { MdCode, MdMic, MdDescription, MdMap, MdTrendingUp, MdFlashOn, MdEmojiEvents, MdArrowForward } from 'react-icons/md';
+import { MdCode, MdMic, MdDescription, MdTrendingUp, MdFlashOn, MdEmojiEvents, MdArrowForward } from 'react-icons/md';
 import { Bar } from 'react-chartjs-2';
 import {
   Chart as ChartJS,

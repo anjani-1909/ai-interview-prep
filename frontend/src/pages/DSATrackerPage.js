@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { dsaAPI } from '../utils/api';
 import toast from 'react-hot-toast';
-import { MdAdd, MdDelete, MdBarChart, MdCode, MdClose } from 'react-icons/md';
+import { MdAdd, MdDelete, MdCode, MdClose } from 'react-icons/md';
 import { Bar, Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, CategoryScale, LinearScale, BarElement, Tooltip, Legend } from 'chart.js';
 
