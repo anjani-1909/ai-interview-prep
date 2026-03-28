@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import {
-   MdCode, MdMic, MdDescription, MdMap,
+   MdCode, MdMic, MdDescription,
   MdPerson, MdLogout
 } from 'react-icons/md';
 
