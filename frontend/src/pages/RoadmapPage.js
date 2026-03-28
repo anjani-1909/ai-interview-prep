@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 import { MdCheckCircle, MdSchedule, MdOpenInNew, MdUpdate } from 'react-icons/md';
 
 const RoadmapPage = () => {
-  const { user, updateUser } = useAuth();
+  const {updateUser } = useAuth();
   const [roadmap, setRoadmap] = useState(null);
   const [loading, setLoading] = useState(true);
   const [updatingLevel, setUpdatingLevel] = useState(false);
