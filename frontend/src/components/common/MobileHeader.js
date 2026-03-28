@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdMenu, MdNotifications, MdAutoAwesome } from 'react-icons/md';
+import { MdMenu, MdNotifications } from 'react-icons/md';
 import { useAuth } from '../../context/AuthContext';
 
 const MobileHeader = ({ onMenuClick }) => {

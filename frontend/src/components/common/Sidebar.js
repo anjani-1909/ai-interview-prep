@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import {
-  MdDashboard, MdCode, MdMic, MdDescription, MdMap,
-  MdPerson, MdLogout, MdAutoAwesome, MdTrendingUp
+   MdCode, MdMic, MdDescription, MdMap,
+  MdPerson, MdLogout
 } from 'react-icons/md';
 
 const navItems = [
