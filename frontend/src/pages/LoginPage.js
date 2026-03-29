@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { MdEmail, MdVisibility, MdVisibilityOff } from 'react-icons/md';
+import { MdEmail,MdLock, MdAutoAwesome,MdVisibility, MdVisibilityOff } from 'react-icons/md';
 
 const LoginPage = () => {
   const [form, setForm] = useState({ email: '', password: '' });

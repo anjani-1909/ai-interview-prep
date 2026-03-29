@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import {
    MdCode, MdMic, MdDescription,
-  MdPerson, MdLogout
+  MdPerson, MdLogout,MdDashboard,MdMap,MdTrendingUp,MdAutoAwesome
 } from 'react-icons/md';
 
 const navItems = [

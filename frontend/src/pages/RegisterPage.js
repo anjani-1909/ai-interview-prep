@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { MdEmail, MdPerson, MdWork, MdVisibility, MdVisibilityOff } from 'react-icons/md';
+import { MdEmail,MdLock, MdPerson, MdWork, MdVisibility, MdVisibilityOff } from 'react-icons/md';
 
 const RegisterPage = () => {
   const [form, setForm] = useState({

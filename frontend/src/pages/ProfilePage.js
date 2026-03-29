@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { authAPI } from '../utils/api';
 import toast from 'react-hot-toast';
-import { MdEdit, MdSave, MdPerson, MdWork, MdTrendingUp, MdEmojiEvents, MdCode, MdMic } from 'react-icons/md';
+import { MdEdit,MdSchool, MdSave, MdPerson, MdWork, MdTrendingUp, MdEmojiEvents, MdCode, MdMic } from 'react-icons/md';
 
 const ProfilePage = () => {
   const { user, updateUser, logout } = useAuth();
