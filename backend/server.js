@@ -11,7 +11,10 @@ const app = express();
 
 // ✅ CORS sabse upar (IMPORTANT FIX)
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: [
+  'http://localhost:3000',
+  'https://ai-interview-prep-wine.vercel.app'
+],
   credentials: true
 }));
 
